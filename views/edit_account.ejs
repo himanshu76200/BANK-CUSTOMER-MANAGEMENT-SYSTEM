@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.btn-group .button {
+  background-color: #4CAF50; /* Green */
+  border: 1px solid green;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  display: block;
+}
+
+.btn-group .button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+  background-color: #3e8e41;
+}
+</style>
+</head>
+<body>
+
+<h1>Welcome back <strong> <%=user%> </strong> </h1>
+<!-- <br> -->
+<h2>Please select from options Below</h2>
+<br>
+<div class="btn-group">
+  <button class="button" name="b1" type="submit" onclick="window.location.href='http://localhost:8080/login/edit_account/aadhar';">UPDATE AADHAR</button>
+  <br>
+  <button class="button" name="b2" type="submit" onclick="window.location.href='http://localhost:8080/login/edit_account/panno';">UPDATE PAN NO</button>
+  <br>
+  <button class="button" name="b3" type="submit" onclick="window.location.href='http://localhost:8080/login/edit_account/address';">UPDATE ADDRESS</button>
+  <br>
+  <!-- <button class="button" name="b4" type="submit" onclick="window.location.href='http://localhost:8080/login/edit_account/dob';">UPDATE DOB</button> -->
+</div>
+
+</body>
+</html>

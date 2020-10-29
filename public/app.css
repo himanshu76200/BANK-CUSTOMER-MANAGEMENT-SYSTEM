@@ -1,0 +1,60 @@
+body {
+    font-family: 'Roboto', sans-serif; 
+    text-align: center;
+    color: rgb(65,69,86); 
+    background-size: cover;
+    font-weight: 100;
+    height: 100%;
+    /* background-image: url("piggy.jpg"); */
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+h1{
+    
+    margin: 0;
+    font-size: 100px;
+    line-height: 280px;
+    font-weight: bolder;
+}
+p{
+    font-weight: bold;
+    margin: 0;
+    font-size: 50px;
+}
+.form {
+	line-height: 1.5;
+	border: black;
+	border-bottom: 3px solid #ebebeb;
+	margin-top: 70px;
+	width: 700px;
+	font-size: 2.9em;
+	color: black;
+	padding: 5px 10px;
+	background: gray;
+}
+button {
+    line-height: 2.0;
+    border: none;
+    border:3px solid blue;
+    font-size: 1.9em;
+    color: rgb(66,69,86);
+    padding: 5px 30px;
+    background: rgba(255,255,255,1.0);
+    border-radius: 5px;
+    opacity: 0.8;
+}
+::-webkit-input-placeholder { 
+    color: rgba(255,255,255,0.8);
+  }
+  input[type=text]:focus {
+    outline: none;
+  }
+  
+  button:hover{
+    opacity: 1;
+  }

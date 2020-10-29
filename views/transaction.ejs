@@ -1,0 +1,11 @@
+<h1> <strong><%=name%></strong> welcome to transaction page of our bank </h1>
+<h2> Your current available balance is : <strong> <%=balance%> </strong></h2>
+
+<p class="lead">Enter Account details of the user you want to send money </p>
+<form method="POST" action='/send_money'>
+    <input type="int" name="account_no" class="form" placeholder="Enter the Account No." required>
+    <br>
+    <input type="int" name="amount" class="form" placeholder="Enter the Amount" required>
+    <br><br>
+    <button class = "button">SEND</button>
+</form>
